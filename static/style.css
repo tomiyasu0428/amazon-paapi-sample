@@ -1,0 +1,23 @@
+.product-image {
+    height: 200px;
+    object-fit: contain;
+    padding: 1rem;
+}
+
+.product-title {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    height: 3rem;
+}
+
+.product-detail-image {
+    max-height: 500px;
+    object-fit: contain;
+}
+
+/* static/no-image.jpg は適当な画像を用意するか、
+   以下のURL等から取得してください:
+   https://placehold.jp/400x400.png */
